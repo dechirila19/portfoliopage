@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.welcome {
+  height: 100vh;
+  background-color: rgb(46, 40, 42);
+}
+
+#welcome-sect {
+  text-align: center;
+  color: white;
+  font-family: 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 40px;
+  padding-top: 250px;
+}
+
+#welcome-text {
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.main-body {
+    background-color: rgb(237, 184, 139);
+    width: 100%;
+  
+}
+
+.main-body2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 150px;
+}
+
+#tribute {
+  width: 100%;
+  
+}
+
+#product {
+  width: 100%;
+}
+
+#survey {
+  width: 100%;
+}
+
+#technical {
+  width: 100%;
+}
+
+.project-tile {
+  border: 1px solid rgb(237, 184, 139);
+}
+
+.project-tile:hover {
+  border: 1px solid rgb(46, 40, 42);
+}
+
+.desc {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgb(250, 216, 214);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  color: rgb(46, 40, 42);
+}
+
+.navigation-bar {
+  word-spacing: 50px;
+}
+
+#welcome-text {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+  color: white;
+  padding-top: 50px;
+}
+
+.footer {
+  background-color: rgb(46, 40, 42);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  
+}
+
+.footer p {
+  padding-top: 5px;
+  color: white;
+  font-family: 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 18px;
+  
+}
+
+#github {
+  width: 60px;
+  height: auto;
+
+}
+
+#instagram {
+  width: 60px;
+  height: auto;
+}
+
+.git {
+  padding-right: 40px;
+}
+
+#footer-p {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.more-stuff {
+  display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .footer p {
+    font-size: 20px !important;
+  }
+  
+  .footer {
+    padding-bottom: 150px;
+  }
+  
+  .welcome h1 {
+    font-size: 28px !important;
+  }
+  
+  .welcome p {
+    font-size: 20px !important;
+  }
+  
+  .main-body h2 {
+    font-size: 20px !important;
+  }
+  
+  .desc {
+    text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 17px;
+  }
+  
+  #github {
+  width: 40px;
+  height: auto;
+
+}
+
+#instagram {
+  width: 40px;
+  height: auto;
+}
+   .git p {
+   font-size: 15px !important;
+  }
+  
+ #instaa {
+   font-size: 15px !important;
+  }
+  
+  .main-body2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
